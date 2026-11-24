@@ -58,6 +58,5 @@ AI & Data Science Student
 This application is an educational project. Predictions are model estimates and may not always be correct.
 ## Live Demo
 
-Try MailGuard AI here:
+[🚀 Open MailGuard AI](https://emailspamdetection-4hch8eu42fk6epkbtvtgxk.streamlit.app/)
 
-[Open MailGuard AI Website]([https://emailspamdetection-4hch8eu42fk6epkbtvtgxk.streamlit.app/](url)

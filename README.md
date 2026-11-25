@@ -1,4 +1,4 @@
-# MailGuard AI – Email Spam Detection System
+# MailGuard AI – SMS Spam Detection System
 
 ## Project Overview
 MailGuard AI is a Machine Learning-based application designed to classify text messages as Spam or Not Spam.
@@ -34,6 +34,41 @@ Unwanted spam messages can create inconvenience and may contain misleading infor
 4. Train a Multinomial Naive Bayes model.
 5. Save the trained model and vectorizer.
 6. Deploy the application using Streamlit Community Cloud.
+
+ ## Dataset Details
+
+This project uses the SMS Spam Collection Dataset.
+
+- Total Messages: 5,572
+- Ham (Legitimate Messages): 4,825
+- Spam Messages: 747
+- Data Type: Text Messages
+- Target Classes: Spam and Ham
+
+The dataset is used to train a machine learning model
+to identify unwanted messages.
+
+## Data Processing
+
+1. Load the SMS dataset.
+2. Prepare and clean the text messages.
+3. Convert text into numerical features using TF-IDF.
+4. Train the Multinomial Naive Bayes classifier.
+
+ ## Testing Information
+
+The application was tested using sample spam and legitimate messages.
+
+| Test Case | Expected Result | Status |
+|---|---|---|
+| Spam message input | Spam prediction | Passed |
+| Normal message input | Not Spam prediction | Passed |
+| Prediction History | Display history | Passed |
+| CSV Download | Download history | Passed |
+| Clear History | Clear saved history | Passed |
+
+All the above functional tests were confirmed
+during application testing.  
 
 ## Project Files
 - `app.py` – Streamlit application

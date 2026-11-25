@@ -27,6 +27,17 @@ Unwanted spam messages can create inconvenience and may contain misleading infor
 - Interactive dashboard
 - Web-based application
 
+  ## Application Screenshots
+
+### 1. Home Dashboard
+![MailGuard AI Home](MailGuard_AI_Home.png)
+
+### 2. Spam Prediction
+![MailGuard AI Prediction](MailGuard_AI_Prediction.png)
+
+### 3. Analysis History
+![MailGuard AI History](MailGuard_AI_History.png)
+
 ## Machine Learning Workflow
 1. Load the SMS Spam Collection dataset.
 2. Preprocess the text messages.
